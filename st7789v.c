@@ -367,16 +367,7 @@ void st7789_init( )
     // printf("LCD clear.\n");
     
 Lcd_Clear(BLUE);  nrf_delay_ms(100);
-Lcd_Clear(GREEN); nrf_delay_ms(100);
-Lcd_Clear(BLUE);  nrf_delay_ms(100);
 
-Lcd_Clear(YELLOW); nrf_delay_ms(100);
-Lcd_Clear(RED);    nrf_delay_ms(100);
-Lcd_Clear(WHITE);  nrf_delay_ms(100);
-
-Lcd_Clear(GRAY0);  nrf_delay_ms(100);
-Lcd_Clear(GRAY1);  nrf_delay_ms(100);
-Lcd_Clear(GRAY2);  nrf_delay_ms(100);
 Lcd_Clear(BLACK);  nrf_delay_ms(100); 
  for(uint8_t i=0;i<200;i++)
  {

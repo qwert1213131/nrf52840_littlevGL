@@ -67,109 +67,81 @@ Output/nrfx_spim_pca10056\ Release/Obj/main.o: \
  D:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 3.52a/include/stdlib.h \
  ../../../../../../components/libraries/balloc/nrf_balloc.h \
  ../../../../../../components/libraries/log/nrf_log_default_backends.h \
+ E:\nRF5_SDK_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\FT6336.h \
+ ..\..\..\lvgl/lvgl.h ..\..\..\lvgl/lv_misc/lv_log.h ../../lv_conf.h \
+ ..\..\..\lvgl/lv_misc/lv_task.h ..\..\..\lvgl/lv_misc/lv_mem.h \
+ ..\..\..\lvgl/lv_misc/lv_log.h ..\..\..\lvgl/lv_misc/lv_ll.h \
+ ..\..\..\lvgl/lv_hal/lv_hal.h ..\..\..\lvgl/lv_hal/lv_hal_disp.h \
+ ..\..\..\lvgl/lv_hal/lv_hal.h ..\..\..\lvgl/lv_hal/../lv_misc/lv_color.h \
+ ..\..\..\lvgl/lv_hal/../lv_misc/lv_area.h \
+ ..\..\..\lvgl/lv_hal/lv_hal_indev.h ..\..\..\lvgl/lv_hal/lv_hal_tick.h \
+ ..\..\..\lvgl/lv_core/lv_obj.h ..\..\..\lvgl/lv_core/lv_style.h \
+ ..\..\..\lvgl/lv_core/../lv_misc/lv_color.h \
+ ..\..\..\lvgl/lv_core/../lv_misc/lv_area.h \
+ ..\..\..\lvgl/lv_core/../lv_misc/lv_font.h \
+ ..\..\..\lvgl/lv_core/../lv_misc/lv_symbol_def.h \
+ ..\..\..\lvgl/lv_core/../lv_misc/../lv_fonts/lv_font_builtin.h \
+ ..\..\..\lvgl/lv_core/../lv_misc/../lv_fonts/../lv_misc/lv_font.h \
+ ..\..\..\lvgl/lv_core/../lv_misc/lv_anim.h \
+ ..\..\..\lvgl/lv_core/../lv_misc/lv_mem.h \
+ ..\..\..\lvgl/lv_core/../lv_misc/lv_ll.h \
+ ..\..\..\lvgl/lv_core/../lv_misc/lv_log.h \
+ ..\..\..\lvgl/lv_core/lv_group.h ..\..\..\lvgl/lv_core/lv_obj.h \
+ ..\..\..\lvgl/lv_core/lv_vdb.h ..\..\..\lvgl/lv_themes/lv_theme.h \
+ ..\..\..\lvgl/lv_themes/../lv_core/lv_style.h \
+ ..\..\..\lvgl/lv_themes/lv_theme_templ.h \
+ ..\..\..\lvgl/lv_themes/lv_theme_default.h \
+ ..\..\..\lvgl/lv_themes/lv_theme_alien.h \
+ ..\..\..\lvgl/lv_themes/lv_theme_night.h \
+ ..\..\..\lvgl/lv_themes/lv_theme_zen.h \
+ ..\..\..\lvgl/lv_themes/lv_theme_mono.h \
+ ..\..\..\lvgl/lv_themes/lv_theme_nemo.h \
+ ..\..\..\lvgl/lv_themes/lv_theme_material.h \
+ ..\..\..\lvgl/lv_objx/lv_btn.h ..\..\..\lvgl/lv_objx/lv_cont.h \
+ ..\..\..\lvgl/lv_objx/../lv_core/lv_obj.h \
+ ..\..\..\lvgl/lv_objx/../lv_core/lv_indev.h \
+ ..\..\..\lvgl/lv_objx/../lv_core/lv_obj.h \
+ ..\..\..\lvgl/lv_objx/../lv_core/../lv_hal/lv_hal_indev.h \
+ ..\..\..\lvgl/lv_objx/../lv_core/../lv_core/lv_group.h \
+ ..\..\..\lvgl/lv_objx/lv_imgbtn.h ..\..\..\lvgl/lv_objx/lv_btn.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/lv_draw_img.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/lv_draw.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/../lv_core/lv_style.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/../lv_misc/lv_txt.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/../lv_misc/lv_area.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/../lv_misc/lv_font.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/lv_draw_rect.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/lv_draw_label.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/lv_draw_img.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/lv_draw_line.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/lv_draw_triangle.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/../lv_core/lv_obj.h \
+ ..\..\..\lvgl/lv_objx/lv_img.h ..\..\..\lvgl/lv_objx/../lv_misc/lv_fs.h \
+ ..\..\..\lvgl/lv_objx/../lv_misc/lv_mem.h \
+ ..\..\..\lvgl/lv_objx/../lv_misc/lv_symbol_def.h \
+ ..\..\..\lvgl/lv_objx/lv_label.h \
+ ..\..\..\lvgl/lv_objx/../lv_misc/lv_font.h \
+ ..\..\..\lvgl/lv_objx/../lv_misc/lv_txt.h \
+ ..\..\..\lvgl/lv_objx/../lv_draw/lv_draw.h \
+ ..\..\..\lvgl/lv_objx/lv_label.h ..\..\..\lvgl/lv_objx/lv_line.h \
+ ..\..\..\lvgl/lv_objx/lv_page.h ..\..\..\lvgl/lv_objx/lv_cont.h \
+ ..\..\..\lvgl/lv_objx/lv_list.h ..\..\..\lvgl/lv_objx/lv_page.h \
+ ..\..\..\lvgl/lv_objx/lv_img.h ..\..\..\lvgl/lv_objx/lv_chart.h \
+ ..\..\..\lvgl/lv_objx/lv_line.h ..\..\..\lvgl/lv_objx/lv_cb.h \
+ ..\..\..\lvgl/lv_objx/lv_bar.h ..\..\..\lvgl/lv_objx/lv_slider.h \
+ ..\..\..\lvgl/lv_objx/lv_bar.h ..\..\..\lvgl/lv_objx/lv_led.h \
+ ..\..\..\lvgl/lv_objx/lv_btnm.h ..\..\..\lvgl/lv_objx/lv_kb.h \
+ ..\..\..\lvgl/lv_objx/lv_btnm.h ..\..\..\lvgl/lv_objx/lv_ddlist.h \
+ ..\..\..\lvgl/lv_objx/../lv_objx/lv_page.h \
+ ..\..\..\lvgl/lv_objx/../lv_objx/lv_label.h \
+ ..\..\..\lvgl/lv_objx/lv_roller.h ..\..\..\lvgl/lv_objx/lv_ddlist.h \
+ ..\..\..\lvgl/lv_objx/lv_ta.h ..\..\..\lvgl/lv_objx/lv_win.h \
+ ..\..\..\lvgl/lv_objx/lv_tabview.h \
+ ..\..\..\lvgl/lv_objx/../lv_objx/lv_win.h \
+ ..\..\..\lvgl/lv_objx/lv_mbox.h ..\..\..\lvgl/lv_objx/lv_gauge.h \
+ ..\..\..\lvgl/lv_objx/lv_lmeter.h ..\..\..\lvgl/lv_objx/lv_lmeter.h \
+ ..\..\..\lvgl/lv_objx/lv_sw.h ..\..\..\lvgl/lv_objx/lv_slider.h \
+ ..\..\..\lvgl/lv_objx/lv_arc.h ..\..\..\lvgl/lv_objx/lv_preload.h \
+ ..\..\..\lvgl/lv_objx/lv_arc.h ..\..\..\lvgl/lv_objx/lv_calendar.h \
  E:\nRF5_SDK_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\st7789v.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lvgl.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_misc/lv_log.h \
- ../../lv_conf.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_misc/lv_task.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_misc/lv_mem.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_misc/lv_log.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_misc/lv_ll.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_hal/lv_hal.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_hal/lv_hal_disp.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_hal/lv_hal.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_color.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_area.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_hal/lv_hal_indev.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_hal/lv_hal_tick.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_core/lv_obj.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_core/lv_style.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_color.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_area.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_font.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_symbol_def.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_fonts\lv_font_builtin.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_font.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_anim.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_mem.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_ll.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_log.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_core/lv_group.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_core/lv_obj.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_core/lv_vdb.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_themes/lv_theme.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_core\lv_style.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_themes/lv_theme_templ.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_themes/lv_theme_default.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_themes/lv_theme_alien.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_themes/lv_theme_night.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_themes/lv_theme_zen.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_themes/lv_theme_mono.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_themes/lv_theme_nemo.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_themes/lv_theme_material.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_btn.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_cont.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_core\lv_obj.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_core\lv_indev.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_core\lv_obj.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_hal\lv_hal_indev.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_core\lv_group.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_imgbtn.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_btn.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_draw\lv_draw_img.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_draw\lv_draw.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_core\lv_style.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_txt.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_area.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_font.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_draw\lv_draw_rect.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_draw\lv_draw_label.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_draw\lv_draw_img.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_draw\lv_draw_line.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_draw\lv_draw_triangle.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_core\lv_obj.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_img.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_fs.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_mem.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_symbol_def.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_label.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_font.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_misc\lv_txt.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_draw\lv_draw.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_label.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_line.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_page.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_cont.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_list.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_page.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_img.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_chart.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_line.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_cb.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_bar.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_slider.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_bar.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_led.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_btnm.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_kb.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_btnm.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_ddlist.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_objx\lv_page.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_objx\lv_label.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_roller.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_ddlist.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_ta.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_win.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_tabview.h \
- e:\nrf5_sdk_15.2.0_9412b96\examples\peripheral\nrfx_spim\ -\ test_lcd\lvgl\lv_objx\lv_win.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_mbox.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_gauge.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_lmeter.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_lmeter.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_sw.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_slider.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_arc.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_preload.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_arc.h \
- E:/nRF5_SDK_15.2.0_9412b96/examples/peripheral/nrfx_spim\ -\ test_lcd/lvgl/lv_objx/lv_calendar.h \
  ../../../../../../components/libraries/timer/app_timer.h

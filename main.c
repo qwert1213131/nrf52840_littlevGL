@@ -48,17 +48,18 @@
 #include "nrf_log_ctrl.h"
 #include "nrf_log_default_backends.h"
 
+#include "FT6336.h"
 #include "st7789v.h"
 #include "lvgl.h"
 
 #include "app_timer.h"
 
-static app_timer_id_t                    id_lvgl_tick; 
+APP_TIMER_DEF(id_lvgl_tick); 
 static void lvgl_tick_handler(void * p_context)
 {
- lv_tick_inc(1);
+ lv_tick_inc(10);
 }
-
+lv_obj_t * label1 ;
  
 int main(void)
 {
@@ -68,28 +69,57 @@ int main(void)
   NRF_LOG_DEFAULT_BACKENDS_INIT();
 
   lv_init();
-  ret_code_t err_code = app_timer_init();
-  app_timer_create (&id_lvgl_tick, APP_TIMER_MODE_REPEATED, lvgl_tick_handler);
-  app_timer_start(id_lvgl_tick, APP_TIMER_TICKS(1), NULL);
 
-// lv_theme_t *th = lv_theme_zen_init(150, NULL);
-// lv_theme_set_current(th);
+//  ret_code_t err_code = app_timer_init();
+//  APP_ERROR_CHECK(err_code);
+//  err_code = app_timer_create (&id_lvgl_tick, APP_TIMER_MODE_REPEATED, lvgl_tick_handler);
+//  APP_ERROR_CHECK(err_code);
+//  err_code = app_timer_start(id_lvgl_tick, APP_TIMER_TICKS(10), NULL);
+//  APP_ERROR_CHECK(err_code);
 
+  lv_theme_t *th = lv_theme_alien_init(30, NULL);
+  lv_theme_set_current(th);
+
+  
   st7789_init();
   lv_disp_drv_t disp;
   lv_disp_drv_init(&disp);
   disp.disp_flush = st7789_flush;
   lv_disp_drv_register(&disp);
 
+  FT6336_Init();
+  lv_indev_drv_t indev_drv;
+  lv_indev_drv_init(&indev_drv);
+  indev_drv.read = FT6336_read;
+  indev_drv.type = LV_INDEV_TYPE_POINTER;
+  lv_indev_drv_register(&indev_drv);
 
-  lv_obj_t *calendar = lv_calendar_create(lv_scr_act(),NULL);
-  lv_obj_set_size(calendar,240,240);
 
+//  lv_obj_t *calendar = lv_calendar_create(lv_scr_act(),NULL);
+//  lv_obj_set_size(calendar,240,240);
+
+
+  lv_obj_t *scr = lv_obj_create(NULL, NULL);	
+  lv_scr_load(scr);  
+  label1 =  lv_label_create(scr , NULL);
+
+  lv_obj_t * btn =  lv_btn_create(scr , NULL);
+  lv_obj_set_size(btn,100,100);
+  lv_btn_set_ink_in_time(btn,100);
+  lv_btn_set_ink_out_time(btn,100);
+  lv_obj_align(btn,scr,LV_ALIGN_CENTER,0,0);
+  char buffer[20];
+ 
 
   while(1) 
   {
-          nrf_delay_ms(20);
+  
+          nrf_delay_ms(10);
+          lv_tick_inc(10);
           lv_task_handler();
+          sprintf(buffer,"x:%d  y:%d",240-TPR_Structure.x[0],240-TPR_Structure.y[0]);
+          lv_label_set_text(label1,buffer);
+		
          
           
   }
